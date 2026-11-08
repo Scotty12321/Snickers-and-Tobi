@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Snickers & Tobi Club 🐈</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #11131b;
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #252b3d, #11131b);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 55px;
+    color: #f3a34b;
+}
+
+header p {
+    color: #ccc;
+    font-size: 18px;
+}
+
+nav {
+    background: #1c2030;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #f3a34b;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #f3a34b;
+    font-size: 32px;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background: #252b3d;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1;
+    min-width: 260px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: #f3a34b;
+}
+
+.card p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.stat {
+    background: #252b3d;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.stat h3 {
+    color: #f3a34b;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1c2030;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 THE CAT CLUB 🐾</h1>
+    <p>Two cats. One house. Unlimited chaos.</p>
+    <p>Welcome to the official Snickers & Tobi website.</p>
+</header>
+
+<nav>
+    <a href="#cats">The Cats</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#stats">Statistics</a>
+</nav>
+
+<section id="cats">
+    <h2>Meet the Legends</h2>
+
+    <div class="cats">
+
+        <div class="card">
+            <img src="snickers.jpg" alt="Snickers">
+            <h3>Snickers 🐈</h3>
+            <p><b>Title:</b> The OG</p>
+            <p>The original household legend.
+            Experienced, respected, and officially
+            the senior member of the Cat Club.</p>
+        </div>
+
+        <div class="card">
+            <img src="tobi.jpg" alt="Tobi">
+            <h3>Tobi 🧡</h3>
+            <p><b>Title:</b> The Orange Menace</p>
+            <p>Orange, adorable, and always ready
+            to take the best sleeping spot.
+            A worthy addition to the Cat Club.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Cat Gallery 📸</h2>
+
+    <div class="gallery">
+        <img src="cats-window.jpg" alt="Both cats watching outside">
+        <img src="tobi.jpg" alt="Tobi relaxing">
+        <img src="snickers.jpg" alt="Snickers">
+    </div>
+</section>
+
+<section id="stats">
+    <h2>Official Cat Statistics</h2>
+
+    <div class="stats">
+
+        <div class="stat">
+            <h3>2</h3>
+            <p>Professional loafs</p>
+        </div>
+
+        <div class="stat">
+            <h3>100%</h3>
+            <p>Chaos potential</p>
+        </div>
+
+        <div class="stat">
+            <h3>∞</h3>
+            <p>Naps per day</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>🐾 The Official Snickers & Tobi Cat Club</p>
+    <p>Made with questionable amounts of cat hair.</p>
+</footer>
+
+</body>
+</html>
